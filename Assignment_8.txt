@@ -1,0 +1,53 @@
+1)Ans:-
+
+from datetime import datetime
+
+dt = datetime(2018, 6, 18)
+print (dt.timetuple)
+
+2)Ans:-
+
+import time,datetime
+localtime = time.asctime(time.localtime())
+print ("Local current time :", localtime)
+
+3,4,5)Ans:-
+
+import time
+strings = time.strftime("%Y,%m,%d,%H,%M,%S")
+t = strings.split(',')
+numbers = [ int(x) for x in t ]
+print (numbers)
+
+6)Ans:-
+
+import time as t
+print (t.localtime())
+
+7)Ans:-
+
+import math
+no=int(input('enter the no'))
+a=math.factorial(no)
+print('the factorial is ' ,a)
+
+8)Ans:-
+
+import math
+a=int(input())
+b=int(input())
+c=math.gcd(a,b)
+print(c)
+
+9)Ans:-
+
+1)Ans:-
+
+import os
+print(os.getcwd())
+
+2)Ans:-
+
+import os
+print(os.environ)
+     
